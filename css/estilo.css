@@ -6,7 +6,7 @@
 #grilla {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 400px 200px 2500px 300px;
+    grid-template-rows: 200px 100px 2000px 75px;
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -145,3 +145,30 @@ button{
     font-size: 20px;
 }
 
+
+.Producto{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, black, white);
+    border-radius: 40px;
+    transition: 2s;
+    
+}
+
+.Producto:hover {
+    transform: skew(10deg, 10deg);
+    filter: grayscale(0);
+}
+
+.AZ {
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(to right, black, white);
+    border-radius: 10px;
+    transition: 2s;
+    filter: grayscale(100%);
+}
+.AZ:hover {
+    transform: skew(10deg, 10deg);
+    filter: grayscale(0);
+}
